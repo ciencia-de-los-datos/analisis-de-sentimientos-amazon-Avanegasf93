@@ -87,7 +87,7 @@ def pregunta_03():
     # Retorne el analizador de palabras
     return lambda x: (stemmer.stem(w) for w in analyzer(x))
 
-from tkinter import Grid
+#from tkinter import Grid
 
 def pregunta_04():
     """
